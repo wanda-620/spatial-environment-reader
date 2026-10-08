@@ -1,0 +1,6 @@
+interface:
+  display_name: "空间环境识别"
+  short_description: "从长方案与多视角图中重建展项空间证据和互动余量"
+  default_prompt: "使用 $spatial-environment-reader 分析这些方案图和空间截图，整理展项位置、尺寸、周边环境与互动余量。"
+policy:
+  allow_implicit_invocation: true
